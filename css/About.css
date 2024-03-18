@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+main {
+    padding: 2rem;
+    height: 100vhvh;
+    background: linear-gradient(to left, rgb(51, 50, 50), rgba(51, 49, 49, 0.651));
+    color: #fff;
+
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    width: 50%;
+    font-size: 20px;
+}
+
+.about-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+
+.about-image {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63)0, rgba(0, 0, 0, 0.151)100%, rgba(0, 0, 0, 0.281)100%), url('/Images//team.png');
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.about-image2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63)0, rgba(0, 0, 0, 0.151)100%, rgba(0, 0, 0, 0.281)100%), url('/Images//a1.jpg');
+
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.about-image3 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63)0, rgba(0, 0, 0, 0.151)100%, rgba(0, 0, 0, 0.281)100%), url('/Images//a2');
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+.about-image4 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63)0, rgba(0, 0, 0, 0.151)100%, rgba(0, 0, 0, 0.281)100%), url('/Images/a4.jpg');
+
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.about-image5 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.63)0, rgba(0, 0, 0, 0.151)100%, rgba(0, 0, 0, 0.281)100%), url('/Images/a5.png');
+
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
